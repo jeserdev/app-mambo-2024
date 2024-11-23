@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "Mambo App",
+    "slug": "react-native-firebase",
+    "version": "1.0.3",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Se necesita acceso a la cámara para tomar fotos.",
+        "NSPhotoLibraryUsageDescription": "Se necesita acceso a la galería para seleccionar imágenes."
+      },
+      "bundleIdentifier": "com.mambofresh.mamboapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "package": "com.mambofresh.mamboapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "17204112-d5d5-42da-bcab-a93c3311eae5"
+      },
+      "FIREBASE_API_KEY": "",
+      "FIREBASE_AUTH_DOMAIN": "",
+      "FIREBASE_PROJECT_ID": "",
+      "FIREBASE_STORAGE_BUCKET": "",
+      "FIREBASE_MESSAGING_SENDER_ID": "",
+      "FIREBASE_APP_ID": "",
+      "FIREBASE_DATABASE_URL": ""
+    },
+    "plugins": ["expo-secure-store"]
+  }
+}
